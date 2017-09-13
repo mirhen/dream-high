@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E931F68F25A00BEF753 /* AppDelegate.swift */; };
+		E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E951F68F25A00BEF753 /* ViewController.swift */; };
+		E6950E991F68F25A00BEF753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E971F68F25A00BEF753 /* Main.storyboard */; };
+		E6950E9B1F68F25A00BEF753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6950E9A1F68F25A00BEF753 /* Assets.xcassets */; };
+		E6950E9E1F68F25A00BEF753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */; };
+		E6950EA91F68F25A00BEF753 /* Dream_HighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EA81F68F25A00BEF753 /* Dream_HighTests.swift */; };
+		E6950EB41F68F25A00BEF753 /* Dream_HighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EB31F68F25A00BEF753 /* Dream_HighUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6950EA51F68F25A00BEF753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6950E881F68F25A00BEF753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6950E8F1F68F25A00BEF753;
+			remoteInfo = "Dream High";
+		};
+		E6950EB01F68F25A00BEF753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6950E881F68F25A00BEF753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6950E8F1F68F25A00BEF753;
+			remoteInfo = "Dream High";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6950E901F68F25A00BEF753 /* Dream High.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream High.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6950E931F68F25A00BEF753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6950E951F68F25A00BEF753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6950E981F68F25A00BEF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6950E9A1F68F25A00BEF753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6950E9D1F68F25A00BEF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6950E9F1F68F25A00BEF753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6950EA41F68F25A00BEF753 /* Dream HighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream HighTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6950EA81F68F25A00BEF753 /* Dream_HighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_HighTests.swift; sourceTree = "<group>"; };
+		E6950EAA1F68F25A00BEF753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6950EAF1F68F25A00BEF753 /* Dream HighUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream HighUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6950EB31F68F25A00BEF753 /* Dream_HighUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_HighUITests.swift; sourceTree = "<group>"; };
+		E6950EB51F68F25A00BEF753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6950E8D1F68F25A00BEF753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EA11F68F25A00BEF753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EAC1F68F25A00BEF753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6950E871F68F25A00BEF753 = {
+			isa = PBXGroup;
+			children = (
+				E6950E921F68F25A00BEF753 /* Dream High */,
+				E6950EA71F68F25A00BEF753 /* Dream HighTests */,
+				E6950EB21F68F25A00BEF753 /* Dream HighUITests */,
+				E6950E911F68F25A00BEF753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6950E911F68F25A00BEF753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6950E901F68F25A00BEF753 /* Dream High.app */,
+				E6950EA41F68F25A00BEF753 /* Dream HighTests.xctest */,
+				E6950EAF1F68F25A00BEF753 /* Dream HighUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6950E921F68F25A00BEF753 /* Dream High */ = {
+			isa = PBXGroup;
+			children = (
+				E6950E931F68F25A00BEF753 /* AppDelegate.swift */,
+				E6950E951F68F25A00BEF753 /* ViewController.swift */,
+				E6950E971F68F25A00BEF753 /* Main.storyboard */,
+				E6950E9A1F68F25A00BEF753 /* Assets.xcassets */,
+				E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */,
+				E6950E9F1F68F25A00BEF753 /* Info.plist */,
+			);
+			path = "Dream High";
+			sourceTree = "<group>";
+		};
+		E6950EA71F68F25A00BEF753 /* Dream HighTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6950EA81F68F25A00BEF753 /* Dream_HighTests.swift */,
+				E6950EAA1F68F25A00BEF753 /* Info.plist */,
+			);
+			path = "Dream HighTests";
+			sourceTree = "<group>";
+		};
+		E6950EB21F68F25A00BEF753 /* Dream HighUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6950EB31F68F25A00BEF753 /* Dream_HighUITests.swift */,
+				E6950EB51F68F25A00BEF753 /* Info.plist */,
+			);
+			path = "Dream HighUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6950E8F1F68F25A00BEF753 /* Dream High */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6950EB81F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream High" */;
+			buildPhases = (
+				E6950E8C1F68F25A00BEF753 /* Sources */,
+				E6950E8D1F68F25A00BEF753 /* Frameworks */,
+				E6950E8E1F68F25A00BEF753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream High";
+			productName = "Dream High";
+			productReference = E6950E901F68F25A00BEF753 /* Dream High.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6950EA31F68F25A00BEF753 /* Dream HighTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6950EBB1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighTests" */;
+			buildPhases = (
+				E6950EA01F68F25A00BEF753 /* Sources */,
+				E6950EA11F68F25A00BEF753 /* Frameworks */,
+				E6950EA21F68F25A00BEF753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6950EA61F68F25A00BEF753 /* PBXTargetDependency */,
+			);
+			name = "Dream HighTests";
+			productName = "Dream HighTests";
+			productReference = E6950EA41F68F25A00BEF753 /* Dream HighTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6950EAE1F68F25A00BEF753 /* Dream HighUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6950EBE1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighUITests" */;
+			buildPhases = (
+				E6950EAB1F68F25A00BEF753 /* Sources */,
+				E6950EAC1F68F25A00BEF753 /* Frameworks */,
+				E6950EAD1F68F25A00BEF753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6950EB11F68F25A00BEF753 /* PBXTargetDependency */,
+			);
+			name = "Dream HighUITests";
+			productName = "Dream HighUITests";
+			productReference = E6950EAF1F68F25A00BEF753 /* Dream HighUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6950E881F68F25A00BEF753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Miriam Hendler";
+				TargetAttributes = {
+					E6950E8F1F68F25A00BEF753 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E6950EA31F68F25A00BEF753 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6950E8F1F68F25A00BEF753;
+					};
+					E6950EAE1F68F25A00BEF753 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6950E8F1F68F25A00BEF753;
+					};
+				};
+			};
+			buildConfigurationList = E6950E8B1F68F25A00BEF753 /* Build configuration list for PBXProject "Dream High" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6950E871F68F25A00BEF753;
+			productRefGroup = E6950E911F68F25A00BEF753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6950E8F1F68F25A00BEF753 /* Dream High */,
+				E6950EA31F68F25A00BEF753 /* Dream HighTests */,
+				E6950EAE1F68F25A00BEF753 /* Dream HighUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6950E8E1F68F25A00BEF753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6950E9E1F68F25A00BEF753 /* LaunchScreen.storyboard in Resources */,
+				E6950E9B1F68F25A00BEF753 /* Assets.xcassets in Resources */,
+				E6950E991F68F25A00BEF753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EA21F68F25A00BEF753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EAD1F68F25A00BEF753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6950E8C1F68F25A00BEF753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */,
+				E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EA01F68F25A00BEF753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6950EA91F68F25A00BEF753 /* Dream_HighTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6950EAB1F68F25A00BEF753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6950EB41F68F25A00BEF753 /* Dream_HighUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6950EA61F68F25A00BEF753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6950E8F1F68F25A00BEF753 /* Dream High */;
+			targetProxy = E6950EA51F68F25A00BEF753 /* PBXContainerItemProxy */;
+		};
+		E6950EB11F68F25A00BEF753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6950E8F1F68F25A00BEF753 /* Dream High */;
+			targetProxy = E6950EB01F68F25A00BEF753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6950E971F68F25A00BEF753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6950E981F68F25A00BEF753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6950E9D1F68F25A00BEF753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6950EB61F68F25A00BEF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6950EB71F68F25A00BEF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6950EB91F68F25A00BEF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dream High/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-High";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6950EBA1F68F25A00BEF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dream High/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-High";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E6950EBC1F68F25A00BEF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream HighTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-HighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream High.app/Dream High";
+			};
+			name = Debug;
+		};
+		E6950EBD1F68F25A00BEF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream HighTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-HighTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream High.app/Dream High";
+			};
+			name = Release;
+		};
+		E6950EBF1F68F25A00BEF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dream HighUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-HighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dream High";
+			};
+			name = Debug;
+		};
+		E6950EC01F68F25A00BEF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dream HighUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-HighUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dream High";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6950E8B1F68F25A00BEF753 /* Build configuration list for PBXProject "Dream High" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6950EB61F68F25A00BEF753 /* Debug */,
+				E6950EB71F68F25A00BEF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6950EB81F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream High" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6950EB91F68F25A00BEF753 /* Debug */,
+				E6950EBA1F68F25A00BEF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6950EBB1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6950EBC1F68F25A00BEF753 /* Debug */,
+				E6950EBD1F68F25A00BEF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6950EBE1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6950EBF1F68F25A00BEF753 /* Debug */,
+				E6950EC01F68F25A00BEF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6950E881F68F25A00BEF753 /* Project object */;
+}
