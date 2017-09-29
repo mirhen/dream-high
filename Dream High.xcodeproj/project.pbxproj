@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2CCE6FEDAB1B38E124B704 /* Pods_Dream_HighTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3C7F38621D441661C82F12 /* Pods_Dream_HighTests.framework */; };
+		86F016A7EE864EBA8DC4868B /* Pods_Dream_HighUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA37276F7D6E6D9539798280 /* Pods_Dream_HighUITests.framework */; };
+		E61807C81F6B2C1A009744A7 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807C71F6B2C1A009744A7 /* FirebaseHelper.swift */; };
+		E61807CA1F6B59D9009744A7 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807C91F6B59D9009744A7 /* SchoolTableViewCell.swift */; };
+		E61807CD1F6B5A43009744A7 /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807CC1F6B5A43009744A7 /* SchoolsViewController.swift */; };
+		E61807CF1F6B5BC2009744A7 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807CE1F6B5BC2009744A7 /* School.swift */; };
+		E61807D11F6BB35E009744A7 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807D01F6BB35E009744A7 /* LoadViewController.swift */; };
+		E61807D31F6BD022009744A7 /* MyMentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61807D21F6BD022009744A7 /* MyMentorViewController.swift */; };
+		E69238391F6927A00053ED28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E69238381F6927A00053ED28 /* GoogleService-Info.plist */; };
+		E692383C1F699D530053ED28 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692383B1F699D530053ED28 /* DiscoverViewController.swift */; };
+		E692383E1F69D34D0053ED28 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692383D1F69D34D0053ED28 /* HeaderCollectionViewCell.swift */; };
+		E69238401F69D3590053ED28 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692383F1F69D3590053ED28 /* StoryCollectionViewCell.swift */; };
+		E69238421F69DFB40053ED28 /* MentorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238411F69DFB40053ED28 /* MentorHomeViewController.swift */; };
+		E69238451F69F6AD0053ED28 /* CreateStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238441F69F6AD0053ED28 /* CreateStoryViewController.swift */; };
+		E69238471F69FC330053ED28 /* AdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238461F69FC330053ED28 /* AdviceViewController.swift */; };
+		E69238491F6A4E290053ED28 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238481F6A4E290053ED28 /* StoryViewController.swift */; };
 		E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E931F68F25A00BEF753 /* AppDelegate.swift */; };
 		E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E951F68F25A00BEF753 /* ViewController.swift */; };
 		E6950E991F68F25A00BEF753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E971F68F25A00BEF753 /* Main.storyboard */; };
@@ -14,6 +30,20 @@
 		E6950E9E1F68F25A00BEF753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */; };
 		E6950EA91F68F25A00BEF753 /* Dream_HighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EA81F68F25A00BEF753 /* Dream_HighTests.swift */; };
 		E6950EB41F68F25A00BEF753 /* Dream_HighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EB31F68F25A00BEF753 /* Dream_HighUITests.swift */; };
+		E6950EC51F68F4BD00BEF753 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EC41F68F4BD00BEF753 /* WelcomeViewController.swift */; };
+		E6950EC81F68F51B00BEF753 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EC71F68F51B00BEF753 /* Helper.swift */; };
+		E6950ECA1F68F78300BEF753 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950EC91F68F78300BEF753 /* OnboardViewController.swift */; };
+		E6950ECC1F68F7F800BEF753 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950ECB1F68F7F800BEF753 /* LoginViewController.swift */; };
+		E69673CC1F6BE937000D6F9B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69673CB1F6BE937000D6F9B /* AboutViewController.swift */; };
+		E6A4C34E1F6902330014D96E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4C34D1F6902330014D96E /* SignUpViewController.swift */; };
+		E6A4C3501F690DE80014D96E /* CollegeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4C34F1F690DE80014D96E /* CollegeSignUpViewController.swift */; };
+		E6A4C3521F691A9D0014D96E /* Dreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4C3511F691A9D0014D96E /* Dreamer.swift */; };
+		E6A4C3541F691AF70014D96E /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4C3531F691AF70014D96E /* Mentor.swift */; };
+		E6A4C3561F691B800014D96E /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4C3551F691B800014D96E /* Story.swift */; };
+		FA0DAFBA1F762F5D003C8F61 /* HighSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DAFB91F762F5D003C8F61 /* HighSchoolViewController.swift */; };
+		FA3F4D5C1F7ABCAD00263F86 /* school.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA3F4D5B1F7ABCAD00263F86 /* school.csv */; };
+		FA4FCDF71F761B6F00EC7745 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FCDF61F761B6F00EC7745 /* ResourcesViewController.swift */; };
+		FB50EA4A5D2D08821A7019EC /* Pods_Dream_High.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE91F488EAE520CE83139F3 /* Pods_Dream_High.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D4B92039BAB7A87A1B68C8 /* Pods-Dream HighTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream HighTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream HighTests/Pods-Dream HighTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE91F488EAE520CE83139F3 /* Pods_Dream_High.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_High.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A2D224FC887F63F2258755 /* Pods-Dream High.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream High.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream High/Pods-Dream High.debug.xcconfig"; sourceTree = "<group>"; };
+		A0914CE23B2BE24E55786AD7 /* Pods-Dream HighUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream HighUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream HighUITests/Pods-Dream HighUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A48F51B4321393C45F74CC48 /* Pods-Dream High.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream High.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream High/Pods-Dream High.release.xcconfig"; sourceTree = "<group>"; };
+		DBB6810C4F7DC4186681E534 /* Pods-Dream HighUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream HighUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream HighUITests/Pods-Dream HighUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E61807C71F6B2C1A009744A7 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		E61807C91F6B59D9009744A7 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolTableViewCell.swift; path = View/SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		E61807CC1F6B5A43009744A7 /* SchoolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolsViewController.swift; path = Dreamer/SchoolsViewController.swift; sourceTree = "<group>"; };
+		E61807CE1F6B5BC2009744A7 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = School.swift; path = Model/School.swift; sourceTree = "<group>"; };
+		E61807D01F6BB35E009744A7 /* LoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadViewController.swift; path = Controller/LoadViewController.swift; sourceTree = "<group>"; };
+		E61807D21F6BD022009744A7 /* MyMentorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMentorViewController.swift; sourceTree = "<group>"; };
+		E6365A9FC7B99589989846CD /* Pods-Dream HighTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream HighTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream HighTests/Pods-Dream HighTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E69238381F6927A00053ED28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E692383B1F699D530053ED28 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverViewController.swift; path = Controller/DiscoverViewController.swift; sourceTree = "<group>"; };
+		E692383D1F69D34D0053ED28 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderCollectionViewCell.swift; path = View/HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E692383F1F69D3590053ED28 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryCollectionViewCell.swift; path = View/StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E69238411F69DFB40053ED28 /* MentorHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorHomeViewController.swift; path = Controller/MentorHomeViewController.swift; sourceTree = "<group>"; };
+		E69238441F69F6AD0053ED28 /* CreateStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateStoryViewController.swift; path = Controller/CreateStoryViewController.swift; sourceTree = "<group>"; };
+		E69238461F69FC330053ED28 /* AdviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdviceViewController.swift; path = Controller/AdviceViewController.swift; sourceTree = "<group>"; };
+		E69238481F6A4E290053ED28 /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		E6950E901F68F25A00BEF753 /* Dream High.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream High.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6950E931F68F25A00BEF753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6950E951F68F25A00BEF753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +98,21 @@
 		E6950EAF1F68F25A00BEF753 /* Dream HighUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream HighUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6950EB31F68F25A00BEF753 /* Dream_HighUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_HighUITests.swift; sourceTree = "<group>"; };
 		E6950EB51F68F25A00BEF753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6950EC41F68F4BD00BEF753 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Controller/WelcomeViewController.swift; sourceTree = "<group>"; };
+		E6950EC71F68F51B00BEF753 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E6950EC91F68F78300BEF753 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardViewController.swift; path = Controller/OnboardViewController.swift; sourceTree = "<group>"; };
+		E6950ECB1F68F7F800BEF753 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		E69673CB1F6BE937000D6F9B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E6A4C34D1F6902330014D96E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E6A4C34F1F690DE80014D96E /* CollegeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollegeSignUpViewController.swift; path = Controller/CollegeSignUpViewController.swift; sourceTree = "<group>"; };
+		E6A4C3511F691A9D0014D96E /* Dreamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dreamer.swift; sourceTree = "<group>"; };
+		E6A4C3531F691AF70014D96E /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mentor.swift; path = Model/Mentor.swift; sourceTree = "<group>"; };
+		E6A4C3551F691B800014D96E /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = Model/Story.swift; sourceTree = "<group>"; };
+		EA37276F7D6E6D9539798280 /* Pods_Dream_HighUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_HighUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0DAFB91F762F5D003C8F61 /* HighSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighSchoolViewController.swift; path = Dreamer/HighSchoolViewController.swift; sourceTree = "<group>"; };
+		FA3F4D5B1F7ABCAD00263F86 /* school.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = school.csv; sourceTree = "<group>"; };
+		FA4FCDF61F761B6F00EC7745 /* ResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourcesViewController.swift; path = Dreamer/ResourcesViewController.swift; sourceTree = "<group>"; };
+		FE3C7F38621D441661C82F12 /* Pods_Dream_HighTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_HighTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB50EA4A5D2D08821A7019EC /* Pods_Dream_High.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2CCE6FEDAB1B38E124B704 /* Pods_Dream_HighTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +136,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F016A7EE864EBA8DC4868B /* Pods_Dream_HighUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AF001CAC4FE33BEA4FBE9B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38A2D224FC887F63F2258755 /* Pods-Dream High.debug.xcconfig */,
+				A48F51B4321393C45F74CC48 /* Pods-Dream High.release.xcconfig */,
+				E6365A9FC7B99589989846CD /* Pods-Dream HighTests.debug.xcconfig */,
+				05D4B92039BAB7A87A1B68C8 /* Pods-Dream HighTests.release.xcconfig */,
+				A0914CE23B2BE24E55786AD7 /* Pods-Dream HighUITests.debug.xcconfig */,
+				DBB6810C4F7DC4186681E534 /* Pods-Dream HighUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD91C7ED2F7C364398A3BAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE91F488EAE520CE83139F3 /* Pods_Dream_High.framework */,
+				FE3C7F38621D441661C82F12 /* Pods_Dream_HighTests.framework */,
+				EA37276F7D6E6D9539798280 /* Pods_Dream_HighUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61807CB1F6B5A23009744A7 /* Dreamer */ = {
+			isa = PBXGroup;
+			children = (
+				E61807CC1F6B5A43009744A7 /* SchoolsViewController.swift */,
+				E61807D21F6BD022009744A7 /* MyMentorViewController.swift */,
+				FA4FCDF61F761B6F00EC7745 /* ResourcesViewController.swift */,
+				FA0DAFB91F762F5D003C8F61 /* HighSchoolViewController.swift */,
+			);
+			name = Dreamer;
+			sourceTree = "<group>";
+		};
+		E692383A1F699D220053ED28 /* LoginVCs */ = {
+			isa = PBXGroup;
+			children = (
+				E6950EC41F68F4BD00BEF753 /* WelcomeViewController.swift */,
+				E6950EC91F68F78300BEF753 /* OnboardViewController.swift */,
+				E6950ECB1F68F7F800BEF753 /* LoginViewController.swift */,
+				E6A4C34D1F6902330014D96E /* SignUpViewController.swift */,
+				E6A4C34F1F690DE80014D96E /* CollegeSignUpViewController.swift */,
+			);
+			name = LoginVCs;
+			sourceTree = "<group>";
+		};
+		E69238431F69DFBD0053ED28 /* Mentor */ = {
+			isa = PBXGroup;
+			children = (
+				E69238411F69DFB40053ED28 /* MentorHomeViewController.swift */,
+				E69238441F69F6AD0053ED28 /* CreateStoryViewController.swift */,
+				E69238461F69FC330053ED28 /* AdviceViewController.swift */,
+			);
+			name = Mentor;
+			sourceTree = "<group>";
+		};
 		E6950E871F68F25A00BEF753 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +206,8 @@
 				E6950EA71F68F25A00BEF753 /* Dream HighTests */,
 				E6950EB21F68F25A00BEF753 /* Dream HighUITests */,
 				E6950E911F68F25A00BEF753 /* Products */,
+				9AF001CAC4FE33BEA4FBE9B4 /* Pods */,
+				AD91C7ED2F7C364398A3BAA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +224,17 @@
 		E6950E921F68F25A00BEF753 /* Dream High */ = {
 			isa = PBXGroup;
 			children = (
+				FA3F4D5A1F7ABCA400263F86 /* Resources */,
+				E6950EC61F68F4D400BEF753 /* Helper */,
+				E6950EC31F68F4B000BEF753 /* Model */,
+				E6950EC21F68F4A600BEF753 /* View */,
+				E6950EC11F68F49C00BEF753 /* Controller */,
 				E6950E931F68F25A00BEF753 /* AppDelegate.swift */,
 				E6950E951F68F25A00BEF753 /* ViewController.swift */,
 				E6950E971F68F25A00BEF753 /* Main.storyboard */,
 				E6950E9A1F68F25A00BEF753 /* Assets.xcassets */,
 				E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */,
+				E69238381F6927A00053ED28 /* GoogleService-Info.plist */,
 				E6950E9F1F68F25A00BEF753 /* Info.plist */,
 			);
 			path = "Dream High";
@@ -125,6 +258,58 @@
 			path = "Dream HighUITests";
 			sourceTree = "<group>";
 		};
+		E6950EC11F68F49C00BEF753 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E61807CB1F6B5A23009744A7 /* Dreamer */,
+				E69238431F69DFBD0053ED28 /* Mentor */,
+				E692383A1F699D220053ED28 /* LoginVCs */,
+				E69673CB1F6BE937000D6F9B /* AboutViewController.swift */,
+				E692383B1F699D530053ED28 /* DiscoverViewController.swift */,
+				E69238481F6A4E290053ED28 /* StoryViewController.swift */,
+				E61807D01F6BB35E009744A7 /* LoadViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E6950EC21F68F4A600BEF753 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E692383D1F69D34D0053ED28 /* HeaderCollectionViewCell.swift */,
+				E692383F1F69D3590053ED28 /* StoryCollectionViewCell.swift */,
+				E61807C91F6B59D9009744A7 /* SchoolTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E6950EC31F68F4B000BEF753 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6A4C3511F691A9D0014D96E /* Dreamer.swift */,
+				E6A4C3531F691AF70014D96E /* Mentor.swift */,
+				E6A4C3551F691B800014D96E /* Story.swift */,
+				E61807CE1F6B5BC2009744A7 /* School.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E6950EC61F68F4D400BEF753 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E6950EC71F68F51B00BEF753 /* Helper.swift */,
+				E61807C71F6B2C1A009744A7 /* FirebaseHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FA3F4D5A1F7ABCA400263F86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F4D5B1F7ABCAD00263F86 /* school.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6950EB81F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream High" */;
 			buildPhases = (
+				9C1D5B4E310AD22ECD02563C /* [CP] Check Pods Manifest.lock */,
 				E6950E8C1F68F25A00BEF753 /* Sources */,
 				E6950E8D1F68F25A00BEF753 /* Frameworks */,
 				E6950E8E1F68F25A00BEF753 /* Resources */,
+				18F2DC99E3B64C107FCB9911 /* [CP] Embed Pods Frameworks */,
+				68807C1BE2AEEA1CCE1CF05C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6950EBB1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighTests" */;
 			buildPhases = (
+				FA8786FFE6E705CD07FB6BDE /* [CP] Check Pods Manifest.lock */,
 				E6950EA01F68F25A00BEF753 /* Sources */,
 				E6950EA11F68F25A00BEF753 /* Frameworks */,
 				E6950EA21F68F25A00BEF753 /* Resources */,
+				64B76E0E3B4A61269A376F04 /* [CP] Embed Pods Frameworks */,
+				874AA54057966E5C8DA189A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +358,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6950EBE1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighUITests" */;
 			buildPhases = (
+				2AC822BD905D9169E4FF5D4F /* [CP] Check Pods Manifest.lock */,
 				E6950EAB1F68F25A00BEF753 /* Sources */,
 				E6950EAC1F68F25A00BEF753 /* Frameworks */,
 				E6950EAD1F68F25A00BEF753 /* Resources */,
+				4FED4DA83E33257EAB274145 /* [CP] Embed Pods Frameworks */,
+				F5BAC3DA861BC5BAFE994E2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +387,7 @@
 				TargetAttributes = {
 					E6950E8F1F68F25A00BEF753 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7QQX7GNST9;
 						ProvisioningStyle = Automatic;
 					};
 					E6950EA31F68F25A00BEF753 = {
@@ -233,6 +428,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6950E9E1F68F25A00BEF753 /* LaunchScreen.storyboard in Resources */,
+				FA3F4D5C1F7ABCAD00263F86 /* school.csv in Resources */,
+				E69238391F6927A00053ED28 /* GoogleService-Info.plist in Resources */,
 				E6950E9B1F68F25A00BEF753 /* Assets.xcassets in Resources */,
 				E6950E991F68F25A00BEF753 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +451,206 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18F2DC99E3B64C107FCB9911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dream High/Pods-Dream High-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SABlurImageView/SABlurImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SABlurImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream High/Pods-Dream High-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC822BD905D9169E4FF5D4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dream HighUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FED4DA83E33257EAB274145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream HighUITests/Pods-Dream HighUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B76E0E3B4A61269A376F04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream HighTests/Pods-Dream HighTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68807C1BE2AEEA1CCE1CF05C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream High/Pods-Dream High-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874AA54057966E5C8DA189A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream HighTests/Pods-Dream HighTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1D5B4E310AD22ECD02563C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dream High-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BAC3DA861BC5BAFE994E2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream HighUITests/Pods-Dream HighUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8786FFE6E705CD07FB6BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dream HighTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6950E8C1F68F25A00BEF753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E692383E1F69D34D0053ED28 /* HeaderCollectionViewCell.swift in Sources */,
+				E61807D11F6BB35E009744A7 /* LoadViewController.swift in Sources */,
+				E6950ECC1F68F7F800BEF753 /* LoginViewController.swift in Sources */,
+				E61807C81F6B2C1A009744A7 /* FirebaseHelper.swift in Sources */,
+				FA4FCDF71F761B6F00EC7745 /* ResourcesViewController.swift in Sources */,
+				E6A4C34E1F6902330014D96E /* SignUpViewController.swift in Sources */,
+				E6950ECA1F68F78300BEF753 /* OnboardViewController.swift in Sources */,
+				E6950EC51F68F4BD00BEF753 /* WelcomeViewController.swift in Sources */,
+				E6A4C3541F691AF70014D96E /* Mentor.swift in Sources */,
+				E6A4C3501F690DE80014D96E /* CollegeSignUpViewController.swift in Sources */,
+				E61807D31F6BD022009744A7 /* MyMentorViewController.swift in Sources */,
 				E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */,
+				E6A4C3521F691A9D0014D96E /* Dreamer.swift in Sources */,
+				E69238421F69DFB40053ED28 /* MentorHomeViewController.swift in Sources */,
 				E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */,
+				E692383C1F699D530053ED28 /* DiscoverViewController.swift in Sources */,
+				E69238491F6A4E290053ED28 /* StoryViewController.swift in Sources */,
+				E6950EC81F68F51B00BEF753 /* Helper.swift in Sources */,
+				E61807CA1F6B59D9009744A7 /* SchoolTableViewCell.swift in Sources */,
+				E69673CC1F6BE937000D6F9B /* AboutViewController.swift in Sources */,
+				E69238471F69FC330053ED28 /* AdviceViewController.swift in Sources */,
+				E69238401F69D3590053ED28 /* StoryCollectionViewCell.swift in Sources */,
+				E61807CD1F6B5A43009744A7 /* SchoolsViewController.swift in Sources */,
+				E61807CF1F6B5BC2009744A7 /* School.swift in Sources */,
+				FA0DAFBA1F762F5D003C8F61 /* HighSchoolViewController.swift in Sources */,
+				E69238451F69F6AD0053ED28 /* CreateStoryViewController.swift in Sources */,
+				E6A4C3561F691B800014D96E /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +800,12 @@
 		};
 		E6950EB91F68F25A00BEF753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A2D224FC887F63F2258755 /* Pods-Dream High.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
 				INFOPLIST_FILE = "Dream High/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-High";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +815,12 @@
 		};
 		E6950EBA1F68F25A00BEF753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48F51B4321393C45F74CC48 /* Pods-Dream High.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				DEVELOPMENT_TEAM = 7QQX7GNST9;
 				INFOPLIST_FILE = "Dream High/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miriamhendler.Dream-High";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +830,7 @@
 		};
 		E6950EBC1F68F25A00BEF753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6365A9FC7B99589989846CD /* Pods-Dream HighTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +845,7 @@
 		};
 		E6950EBD1F68F25A00BEF753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D4B92039BAB7A87A1B68C8 /* Pods-Dream HighTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +860,7 @@
 		};
 		E6950EBF1F68F25A00BEF753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0914CE23B2BE24E55786AD7 /* Pods-Dream HighUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Dream HighUITests/Info.plist";
@@ -475,6 +874,7 @@
 		};
 		E6950EC01F68F25A00BEF753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB6810C4F7DC4186681E534 /* Pods-Dream HighUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Dream HighUITests/Info.plist";
@@ -505,6 +905,7 @@
 				E6950EBA1F68F25A00BEF753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6950EBB1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +914,7 @@
 				E6950EBD1F68F25A00BEF753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6950EBE1F68F25A00BEF753 /* Build configuration list for PBXNativeTarget "Dream HighUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +923,7 @@
 				E6950EC01F68F25A00BEF753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
