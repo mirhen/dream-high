@@ -8,21 +8,20 @@
 
 import Foundation
 
-
 enum account: String {
-    case dreamer = "dreamer"
-    case mentor = "mentor"
+  case dreamer = "dreamer"
+  case mentor = "mentor"
 }
 
 class Dreamer {
-    var name: String
-    var profile: String
-    var nationality: String
-    var mentors: [String] = []
-    
-    init(name: String, nationality: String, profile: String) {
-        self.name = name
-        self.nationality = nationality
-        self.profile = profile
-    }
+  var name: String
+  var profile: String
+  var nationality: String
+  var mentors: [String] = []
+  
+  init(name: String, nationality: String, profile: String) {
+    self.name = name
+    self.nationality = nationality
+    self.profile = profile
+  }
 }

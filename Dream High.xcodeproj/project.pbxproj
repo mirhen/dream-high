@@ -24,7 +24,6 @@
 		E69238471F69FC330053ED28 /* AdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238461F69FC330053ED28 /* AdviceViewController.swift */; };
 		E69238491F6A4E290053ED28 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69238481F6A4E290053ED28 /* StoryViewController.swift */; };
 		E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E931F68F25A00BEF753 /* AppDelegate.swift */; };
-		E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6950E951F68F25A00BEF753 /* ViewController.swift */; };
 		E6950E991F68F25A00BEF753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E971F68F25A00BEF753 /* Main.storyboard */; };
 		E6950E9B1F68F25A00BEF753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6950E9A1F68F25A00BEF753 /* Assets.xcassets */; };
 		E6950E9E1F68F25A00BEF753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */; };
@@ -87,7 +86,6 @@
 		E69238481F6A4E290053ED28 /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		E6950E901F68F25A00BEF753 /* Dream High.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream High.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6950E931F68F25A00BEF753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6950E951F68F25A00BEF753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6950E981F68F25A00BEF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6950E9A1F68F25A00BEF753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6950E9D1F68F25A00BEF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -230,7 +228,6 @@
 				E6950EC21F68F4A600BEF753 /* View */,
 				E6950EC11F68F49C00BEF753 /* Controller */,
 				E6950E931F68F25A00BEF753 /* AppDelegate.swift */,
-				E6950E951F68F25A00BEF753 /* ViewController.swift */,
 				E6950E971F68F25A00BEF753 /* Main.storyboard */,
 				E6950E9A1F68F25A00BEF753 /* Assets.xcassets */,
 				E6950E9C1F68F25A00BEF753 /* LaunchScreen.storyboard */,
@@ -635,7 +632,6 @@
 				E6A4C3541F691AF70014D96E /* Mentor.swift in Sources */,
 				E6A4C3501F690DE80014D96E /* CollegeSignUpViewController.swift in Sources */,
 				E61807D31F6BD022009744A7 /* MyMentorViewController.swift in Sources */,
-				E6950E961F68F25A00BEF753 /* ViewController.swift in Sources */,
 				E6A4C3521F691A9D0014D96E /* Dreamer.swift in Sources */,
 				E69238421F69DFB40053ED28 /* MentorHomeViewController.swift in Sources */,
 				E6950E941F68F25A00BEF753 /* AppDelegate.swift in Sources */,
