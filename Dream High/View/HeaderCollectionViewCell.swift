@@ -9,6 +9,5 @@
 import UIKit
 
 class HeaderCollectionViewCell: UICollectionViewCell {
-    
-    @IBOutlet weak var headerLabel: UILabel!
+  @IBOutlet weak var headerLabel: UILabel!
 }

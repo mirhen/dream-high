@@ -9,11 +9,10 @@
 import UIKit
 
 class StoryCollectionViewCell: UICollectionViewCell {
-    
-    @IBOutlet weak var profileImageView: UIImageView!
-    
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        self.profileImageView.image = nil
-    }
+  @IBOutlet weak var profileImageView: UIImageView!
+  
+  override func prepareForReuse() {
+    super.prepareForReuse()
+    self.profileImageView.image = nil
+  }
 }

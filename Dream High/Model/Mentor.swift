@@ -9,22 +9,27 @@
 import Foundation
 
 class Mentor {
-    var name: String
-    var email: String
-    var profile: String
-    var nationality: String
-    var college: String
-    var major: String
-    var story: Story?
-    var has_story = false
-    
-    init(name: String,email: String, profile: String, nationality: String, college: String, major: String) {
-        self.name = name
-        self.email = email
-        self.profile = profile
-        self.nationality = nationality
-        self.college = college
-        self.major = major
-    }
-
+  var name: String
+  var email: String
+  var profile: String
+  var nationality: String
+  var college: String
+  var major: String
+  var story: Story?
+  var has_story = false
+  
+  init(name: String,
+       email: String,
+       profile: String,
+       nationality: String,
+       college: String,
+       major: String) {
+    self.name = name
+    self.email = email
+    self.profile = profile
+    self.nationality = nationality
+    self.college = college
+    self.major = major
+  }
+  
 }
